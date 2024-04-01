@@ -1,0 +1,29 @@
+.p-table {
+  border-collapse: collapse;
+  font-size: 12px;
+  font-family: Arial;
+
+  &-col,
+  &-row,
+  &-cell {
+    padding: 5px 10px;
+  }
+
+  &-col,
+  &-row {
+    background-color: rgb(50, 93, 136);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, .55);
+    font-weight: 600;
+  }
+
+  &-cell {
+    border: 1px solid rgba(50, 93, 136, .7);
+    font-weight: normal;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+

@@ -1,0 +1,30 @@
+{
+  "name": "cl-perspective",
+  "version": "1.0.1",
+  "author": "Gosion Poon",
+  "license": "MulanPSL-2.0",
+  "keywords": [
+    "prespective",
+    "pivot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gosion/cl-perspective"
+  },
+  "main": "dist/cl-perspective.umd.cjs",
+  "module": "dist/cl-perspective.js",
+  "type": "module",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "sass": "^1.72.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.8.1"
+  }
+}
